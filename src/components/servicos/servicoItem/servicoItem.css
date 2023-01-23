@@ -1,0 +1,57 @@
+.ServicoItem{
+   display: inline-block !important;
+    width: 483px;
+    height: 442.33px;
+    margin: 0 35px;
+    background: #FFFFFF ;
+    border-radius: 30px;
+    filter: drop-shadow(7px 5px 0px #FA7D09);
+}
+.ServicoItem img{
+    margin: 0px 205px;
+    margin-top: 28px;
+}
+.ServicoItem span{
+    position: absolute;
+    left: 3.93%;
+    right: 4.14%;
+    top: 45.89%;
+    bottom: 22.91%;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #0A4058;
+}
+.ServicoItem button{
+    position: absolute;
+    left: 12.42%;
+    right: 12.63%;
+    height: 12%;
+    bottom: 4.56%;
+  
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: white;
+    border-radius: 0px 20px 20px 20px;
+    border: none;
+    background: #FD9637;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15px;
+}
+.TituloServicoItem{
+   
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    padding: 0px 26px;
+    margin-top: 0px;
+    text-align: center;
+
+    color: #0A4058;
+}
