@@ -146,3 +146,12 @@ nav a:hover{
         
     }
 }
+
+@media(max-width: 388px){
+    .hamburguerButton{
+        margin-right:12px;
+    }
+    .hamburguerButton svg{
+        width: 40px;
+    }
+}
