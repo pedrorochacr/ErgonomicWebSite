@@ -1,0 +1,53 @@
+.complementoSobre{
+    width: 33%;
+    margin: 19px 85px;
+    display: flex;
+    flex-direction: column !important;
+}
+.complementoSobre h4{
+     color: #FA7D09;
+    margin: 0px auto;
+    
+    width: 159px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+   
+    text-align: center;
+    margin-bottom: 0px;
+
+
+}
+.complementoSobre img{
+    width: 40px;
+    height: 40px;
+    margin: 0px auto;
+
+}
+.complementoSobre span{
+    margin-top: 15px;
+}
+@media(max-width: 1118px){ 
+    .complementoSobre{
+        margin: auto;
+        width: 84%;
+        margin-top: 21px;
+    }
+    .complementoSobre span{
+        padding: 8px 25px;
+    }
+    
+}
+@media(max-width: 388px){
+    .complementoSobre h4{
+        font-size: 25px;
+    }
+    .complementoSobre img{
+        width: 30px;
+        height: 30px;
+    }
+    .complementoSobre span{
+        font-size: 14px;
+    }
+}

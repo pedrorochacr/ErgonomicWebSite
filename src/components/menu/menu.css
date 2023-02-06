@@ -1,37 +1,148 @@
-
+header{
+    background: #0A4058;
+    top: 0;
+    position: sticky !important;
+    z-index: 1;
+}
+a{
+    color: #FFFFFF;
+    font-style: normal;
+    text-decoration: none;
+}
 nav{
     top: 0;
     display: flex;
     align-items: center;
     width: 100%;
-    height: 127px;
-   position: sticky;
-    align-items: center;
-    background: #0A4058;
-   z-index: 1;
-   
+    height: 87px;
 }
 nav img{
     justify-content: flex-start;
-    width: 221px;
-    height: 111px;
-    margin-right: 480px;
-    margin-left: 35px;
+    width: auto;
+    height: 91px;
+    margin-right: 85px;
+    margin-left: 225px;
    
 }
 nav a{
-    margin: 0px 35px;
+    margin: 0px 25px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 36px;
-    line-height: 54px;
+    font-size: 27px;
 
-    color: #FFFFFF;
+    
 }
 nav a:hover{
     color: rgba(250, 125, 9, 1);
 }
-nav a{
-    text-decoration: none;
+
+.hamburguerButton{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    margin-right: 55px;
+}
+.hamburguerButton button{
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    border: none;   
+}
+.hamburguerButtonClicked{
+    display: flex;
+    background: #0A4058;
+    position: absolute;
+    top: 86px;
+    width: 100%;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+    transition:  .4s;
+
+  
+    
+}
+.hamburguerButtonClicked a{
+    margin-left: 55px;
+}
+
+.contato{
+    
+    margin-left: 95px;
+    padding: 19px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    
+}
+.contato:hover{
+    cursor: pointer;
+}
+.contato a{
+    font-weight: 600;
+    color: #0A4058;
+}
+
+@media(max-width: 995px){
+    .linksDesktop{
+        display: none;
+    }
+   
+    nav img{
+        margin-left: 15px;       
+    }
+    
+    
+}
+@media(max-width: 1446px){
+    nav img{
+        margin-right: 10px;
+        margin-left: 15px;
+       
+    }
+    .contato{
+        margin-left: 25px;
+    }
+    
+    
+}
+@media(max-width: 1098px){
+    nav a{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 995px){
+    .hamburguerButton{
+        display: none;
+    }
+    .hamburguerButtonClicked{
+        display: none; 
+    }
+}
+
+@media(max-width: 585px){
+    nav img{
+        width: auto;
+        height: 64px;
+       
+    }
+    nav{
+        
+        height: 59px;
+    }
+    .hamburguerButtonClicked{
+        top: 59px !important;
+        
+    }
+    .hamburguerButtonClicked a{
+        font-size: 18px;
+        line-height: 42px;
+        
+    }
 }

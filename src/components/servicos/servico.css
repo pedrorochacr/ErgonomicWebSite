@@ -7,14 +7,14 @@
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
-   
+   margin-top: 85px;
 
     color: #FFFFFF;
 }
 .ServicosRoot{
-    height: 1858px;
+  
     background: linear-gradient(180deg, #0A4058 0%, rgba(16, 106, 146, 0) 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 .TituloServicos p{
    margin-bottom: 0px;
@@ -32,3 +32,26 @@
     justify-content: center;
    
 }
+@media(max-width: 815px){
+    .descricaoServicos{
+        margin-bottom: 75px;
+        justify-content: center !important;
+    }
+ 
+}
+
+@media(max-width:584px){
+    .descricaoServicos{
+        flex-direction: column;
+        margin-bottom: 8px;
+    }
+}
+@media(max-width: 415px){
+    .TituloServicos{
+        font-size: 41px;
+        margin-bottom: 15px;
+    }
+    .linha{
+         width: 260px;
+    }
+ }

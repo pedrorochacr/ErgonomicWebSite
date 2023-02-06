@@ -1,4 +1,4 @@
-import fundo from '../../assets/fundo.png'
+
 import "./inicio.css"
 export default function Inicio() {
   return (
@@ -14,7 +14,7 @@ export default function Inicio() {
                   </span>
                  
                   
-                  </p>
+                </p>
             </div>
            
         </>
