@@ -223,7 +223,37 @@
     }
 
 }
+@media(max-width: 545px){
+ 
+    .proposta img{
+        
+        top: 2890px;
+    }
+    
+   
+}
+@media(max-width: 465px){
+ 
+    .proposta img{
+        
+        top: 3000px;
+    }
+    .complementoProposta{
+         margin-top: 160px;
+    }
+   
+}
+@media(max-width: 394px){
+ 
+    .proposta img{
 
+        top: 2880px !important;
+    }
+    .complementoProposta{
+         margin-top: 160px;
+    }
+   
+}
 @media(max-width: 416px){
     .proposta p{
         font-size: 14px !important;
