@@ -27,7 +27,7 @@ export default function Sobre() {
                     </section>
                 </div>
                 <div className="sobreItens">
-                    <SobreItem titulo="Missao" icone={arcoIcone} descricao="Nosso objetivo é garantir soluções que assegurem a saúde do seu colaborador, 
+                    <SobreItem titulo="Missão" icone={arcoIcone} descricao="Nosso objetivo é garantir soluções que assegurem a saúde do seu colaborador, 
                 aumentando os resultados positivos para você e sua equipe. " ></SobreItem>
                     <SobreItem titulo="Visão" icone={visaoIcone} descricao="Ser referência em Ergonomia e Fisioterapia do Trabalho, desenvolvendo e implantando soluções no trabalho através de Laudos e Gestão, 
                 Programas de Qualidade de vida com Treinamentos, Eventos, SIPAT, e campanhas de saúde." ></SobreItem>
