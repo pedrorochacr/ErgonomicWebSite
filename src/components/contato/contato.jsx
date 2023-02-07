@@ -26,9 +26,9 @@ export default function Contato(){
             <label>Nome</label>
             <input type="text" name="from_name" />
             <label>E-mail</label>
-            <input type="email" name="to_name" />
+            <input type="email" name="email" />
             <label>Telefone</label>
-            <input type="text" name="TeleFone" />
+            <input type="text" name="teleFone" />
             <label>Mensagem</label>
             <textarea  name="message" />
             <span className="enviarDados">
