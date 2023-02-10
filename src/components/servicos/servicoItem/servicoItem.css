@@ -23,11 +23,7 @@
     color: #0A4058;
 }
 .ServicoItem a{
-    position: absolute;
-    left: 12.42%;
-    right: 12.63%;
-    height: 12%;
-    bottom: 4.56%;
+   
     padding-left: 10%;
     font-weight: 700;
     margin: auto;
