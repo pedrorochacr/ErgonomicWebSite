@@ -173,7 +173,7 @@
         font-size: 18px !important;
     }
     .ServicoItem a{
-        position: fixed;
+        position: -ms-page;
         top: 84% !important;
        margin-left: 25% !important;
         width: 42%;
