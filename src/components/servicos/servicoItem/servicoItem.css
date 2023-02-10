@@ -7,6 +7,9 @@
     border-radius: 30px;
     filter: drop-shadow(7px 5px 0px #FA7D09);
 }
+.ServicoItem h4{
+        margin-bottom: 1%;
+}
 .ServicoItem img{
     margin: 0px 205px;
     margin-top: 28px;
@@ -23,13 +26,17 @@
     color: #0A4058;
 }
 .ServicoItem a{
-   
+    position: absolute;
+    top:82%;
+    display: flex;
+    margin-left: 18% !important;
+    align-items: center;
     padding-left: 10%;
     font-weight: 700;
     margin: auto;
     width: 49%;
     font-size: 32px;
-    line-height: 48px;
+    line-height: 57px;
     color: white;
     border-radius: 0px 20px 20px 20px;
     border: none;
@@ -100,7 +107,7 @@
     }
     .ServicoItem a{
        margin-bottom: 3px !important;
-        
+        height: 50px !important;
         font-size: 22px !important;
 
     }
@@ -166,7 +173,7 @@
         font-size: 18px !important;
     }
     .ServicoItem a{
-       
+       margin-left: 25% !important;
         width: 42%;
         font-size: 24px !important
        
