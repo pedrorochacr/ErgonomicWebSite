@@ -7,8 +7,8 @@ export default function ServicoItem({logo, titulo, descricao}) {
             <div className="ServicoItem">
                 <img src={logo}></img>
                 <h4 className="TituloServicoItem">{titulo} </h4>
-                <span>{descricao}</span>
-                
+                <p>{descricao}</p>
+               
             </div>
         </>
         
