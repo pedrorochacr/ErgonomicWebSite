@@ -17,9 +17,7 @@ import "./inicio.css"
 export default function Inicio() {
   return (
     <>
-      <div className="root" id='inicio'>
-        
-              
+      <div className="root" id='inicio'>   
         <Swiper
           slidesPerView={1}
           centeredSlides={true}
@@ -27,8 +25,6 @@ export default function Inicio() {
             delay: 3500,
             disableOnInteraction: false,
           }}
-          
-         
           modules={[Autoplay, Navigation]}
           
         >
@@ -57,7 +53,7 @@ export default function Inicio() {
           <SwiperSlide>
             <img alt="designed by Freepik" src={fundoIndustria}></img>
               <section className="description">
-                  <h4>Serviços para <span className="orange">indústrias</span></h4>
+                  <h4>Ergonomia na<span className="orange">indústria</span></h4>
                   <p className='description02'>
                        Identificamos possíveis riscos <span className="orange">ergonômicos</span> em sua empresa. Promovemos soluções <span className="orange">rápidas e práticas</span> para aumentar
                        a produtividade dos colaboradores.
