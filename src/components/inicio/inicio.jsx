@@ -53,7 +53,7 @@ export default function Inicio() {
           <SwiperSlide>
             <img alt="designed by Freepik" src={fundoIndustria}></img>
               <section className="description">
-                  <h4>Ergonomia na<span className="orange">indústria</span></h4>
+                  <h4>Ergonomia na <span className="orange">indústria</span></h4>
                   <p className='description02'>
                        Identificamos possíveis riscos <span className="orange">ergonômicos</span> em sua empresa. Promovemos soluções <span className="orange">rápidas e práticas</span> para aumentar
                        a produtividade dos colaboradores.
