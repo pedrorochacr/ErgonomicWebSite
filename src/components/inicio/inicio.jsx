@@ -8,9 +8,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
-import fundo2 from "../../assets/6b7666ab_1.png"
+import { Autoplay, Navigation } from "swiper";
 import fundoHomeOffice from "../../assets/fundoHomeOffice.jpeg"
+import fundoIndustria from "../../assets/fundoIndustria.jpeg"
 import fundo3 from "../../assets/fundo3.png"
 import fundo1 from "../../assets/fundoEmpresa.png"
 import "./inicio.css"
@@ -55,17 +55,30 @@ export default function Inicio() {
               <div className="fundo"></div>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="designed by Freepik" src={fundo3}></img>
+            <img alt="designed by Freepik" src={fundoIndustria}></img>
               <section className="description">
-                  <h4>Serviços para <br></br> Indústria</h4>
+                  <h4>Serviços para <span className="orange">indústrias</span></h4>
                   <p className='description02'>
-                  Promova <span className="orange">segurança</span> e saúde para seus colaboradores durante o <span className="orange">transporte manual de cargas</span>. 
-                 Aumente a <span className="orange">produtividade</span> e reduza os riscos de acidentes e lesões.
+                       Identificamos possíveis riscos <span className="orange">ergonômicos</span> em sua empresa. Promovemos soluções <span className="orange">rápidas e práticas</span> para aumentar
+                       a produtividade dos colaboradores.
                   </p>
               </section>
               <div className="fundo"></div>
               
           </SwiperSlide>
+          <SwiperSlide>
+            <img alt="designed by Freepik" src={fundo3}></img>
+              <section className="description">
+                  <h4>Transporte e levantamento <br></br><span className="orange">manual</span>  de cargas.</h4>
+                  <p className='description02'>
+                  Promova <span className="orange">segurança</span> e saúde para seus colaboradores durante o <span className="orange">transporte manual de cargas</span>. 
+                 Aumente a <span className="orange">produtividade</span> e reduza os riscos de lesões e afastamentos.
+                  </p>
+              </section>
+              <div className="fundo"></div>
+              
+          </SwiperSlide>
+          
         
         </Swiper>
       </div>
