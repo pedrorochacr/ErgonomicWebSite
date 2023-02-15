@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import fundo2 from "../../assets/6b7666ab_1.png"
+import fundoHomeOffice from "../../assets/fundoHomeOffice.jpeg"
 import fundo3 from "../../assets/fundo3.png"
 import fundo1 from "../../assets/fundoEmpresa.png"
 import "./inicio.css"
@@ -43,7 +44,7 @@ export default function Inicio() {
               <div className="fundo"></div>
           </SwiperSlide>
           <SwiperSlide>
-              <img src={fundo2}></img>
+              <img src={fundoHomeOffice}></img>
               <section className="description">
                   <h4>Consultoria em <br></br> Home Office</h4>
                   <p className='description02'>
@@ -58,9 +59,8 @@ export default function Inicio() {
               <section className="description">
                   <h4>Serviços para <br></br> Indústria</h4>
                   <p className='description02'>
-                    Entendemos a importância da <span className="orange">ergonomia</span> 
-                     no ambiente de trabalho <span className="orange">industrial</span> e trabalhamos 
-                     para maximizar a <span className="orange">segurança, eficiência e conforto</span> dos funcionários.
+                  Promova <span className="orange">segurança</span> e saúde para seus colaboradores durante o <span className="orange">transporte manual de cargas</span>. 
+                 Aumente a <span className="orange">produtividade</span> e reduza os riscos de acidentes e lesões.
                   </p>
               </section>
               <div className="fundo"></div>
